@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: string-utils
+spec:
+ nodeSelector:
+  app: project
+ containers:
+  - name: argocd
+    image: 426728254540.dkr.ecr.ap-south-1.amazonaws.com/string-utils:1.0.30
+    ports:
+      - containerPort: 8080
+ imagePullSecrets:
+  - name: ECR-user
