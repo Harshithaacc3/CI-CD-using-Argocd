@@ -7,7 +7,7 @@ spec:
   app: project
  containers:
   - name: argocd
-    image: 426728254540.dkr.ecr.ap-south-1.amazonaws.com/string-utils:1.0.43
+    image: 426728254540.dkr.ecr.ap-south-1.amazonaws.com/string-utils:1.0.46
     ports:
       - containerPort: 8080
  imagePullSecrets:
