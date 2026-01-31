@@ -5,7 +5,7 @@ metadata:
 spec:
  containers:
   - name: argocd
-    image: 426728254540.dkr.ecr.ap-south-1.amazonaws.com/ci-cd:1.0.11
+    image: 426728254540.dkr.ecr.ap-south-1.amazonaws.com/ci-cd:1.0.12
     ports:
       - containerPort: 8080
  imagePullSecrets:
