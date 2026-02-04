@@ -5,7 +5,7 @@ metadata:
 spec:
  containers:
   - name: calculator
-    image: 671669616800.dkr.ecr.ap-south-1.amazonaws.com/ci-cd:1.0.5
+    image: 671669616800.dkr.ecr.ap-south-1.amazonaws.com/ci-cd:1.0.13
     ports:
       - containerPort: 8080
  imagePullSecrets:
